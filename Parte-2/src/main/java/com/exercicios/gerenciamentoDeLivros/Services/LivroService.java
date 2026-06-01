@@ -8,9 +8,11 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+// @Service mostra que essa classe irá atuar como um Service
 @Service
 public class LivroService {
 
+    // @Autowired realiza a injeção de dependências
     @Autowired
     LivroRepository livroRepository;
 
